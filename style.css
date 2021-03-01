@@ -124,7 +124,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   text-transform: uppercase;
   }
 
-  .wrapper ul li:click{
+  .wrapper ul li:hover{
   background: white;
   color: black;
   }
@@ -133,7 +133,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   display: none;
   }
 
-  .wrapper ul li:click > ul{
+  .wrapper ul li:hover > ul{
   display: block;
   }
 
