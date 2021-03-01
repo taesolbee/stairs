@@ -31,7 +31,7 @@ font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 }
 
-.wrapper ul li:touch {
+.wrapper ul li: hover {
 background: white;
 color: black;
 }
@@ -40,7 +40,7 @@ color: black;
 display: none;
 }
 
-.wrapper ul li:touch > ul{
+.wrapper ul li: hover > ul{
 display: block;
 }
 
