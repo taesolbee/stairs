@@ -91,7 +91,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 }
 
 
-@media (max-width: 767px) {
+@media (min-width: 100px) and (max-width: 767px) {
 
   *{
   margin: 0;
