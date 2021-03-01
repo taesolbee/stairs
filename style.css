@@ -116,14 +116,14 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   text-align: center;
   float:left;
   color: #fff;
-  font-size: 15px;
+  font-size: 13px;
   position: relative;
   font-family: 'Noto Sans KR', sans-serif;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   }
 
-  .wrapper ul li:hover{
+  .wrapper ul li:click{
   background: white;
   color: black;
   }
@@ -132,7 +132,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   display: none;
   }
 
-  .wrapper ul li:hover > ul{
+  .wrapper ul li:click > ul{
   display: block;
   }
 
