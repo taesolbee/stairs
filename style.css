@@ -31,7 +31,7 @@ font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 }
 
-.wrapper ul li: hover{
+.wrapper ul li:hover{
 background: white;
 color: black;
 }
@@ -40,7 +40,7 @@ color: black;
 display: none;
 }
 
-.wrapper ul li: hover > ul{
+.wrapper ul li:hover > ul{
 display: block;
 }
 
@@ -90,6 +90,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     margin-bottom: 0;
 }
 
+
 @media (max-width: 767px) {
 
   *{
@@ -122,7 +123,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   text-transform: uppercase;
   }
 
-  .wrapper ul li: hover{
+  .wrapper ul li:hover{
   background: white;
   color: black;
   }
@@ -131,7 +132,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   display: none;
   }
 
-  .wrapper ul li: hover > ul{
+  .wrapper ul li:hover > ul{
   display: block;
   }
 
@@ -183,4 +184,3 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 
 }
-
